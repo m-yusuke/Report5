@@ -11,7 +11,6 @@ public class LivingThing {
         hitPoint = maximumHP;
         this.attack = attack;
         dead = false;
-        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
 
     public boolean isDead() {
